@@ -15,11 +15,11 @@ const DashboardLayout: React.FC = () => {
                 <div className="px-4 py-2 overflow-y-auto">
                     <TopCoinsBar />
 
-                    <div className="mt-4 grid grid-cols-1 xl:grid-cols-3 gap-4">
-                        <div className="xl:col-span-2">
+                    <div className="flex gap-4 h-[500px]">
+                        <div className="flex-1">
                             <CurrentAsset />
                         </div>
-                        <div>
+                        <div className="w-[300px] shrink-0">
                             <Watchlist />
                         </div>
                     </div>
